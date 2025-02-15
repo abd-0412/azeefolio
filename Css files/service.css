@@ -1,0 +1,106 @@
+/* service-css */
+.service{
+    background-color: #0c0909;
+    padding: 80px 0 80px 0;
+}
+.service-box-btn{
+    margin-top: 15px;
+}
+.service .service-text-container{
+    color: aliceblue;
+    text-align: center;
+}
+.service-text-container span{
+    font-size:12px;
+
+}
+.service-text-container h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: rgb(171, 201, 243);
+    font-size: 25px;
+    text-decoration: underline;
+}
+.section-for-service {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    color: #ffffff;
+}
+.service-box {
+    flex: 1 1 18rem;
+    margin: 20px 20px;
+    padding: 2rem 1rem;
+    background-color: #373737;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.service-box:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+.service-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    margin: 0 auto 1rem;
+    border: 1px solid #ffffff;
+    border-radius: 50%;
+    font-size: 24px;
+    background-color: #2a2a2a;
+    color: #ffffff;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+.service-box h3 {
+    margin: 1rem 0 0.5rem;
+    font-size: 1.5rem;
+    color: #ffffff;
+}
+.service-box p {
+    font-size: 0.95rem;
+    line-height: 1.5;
+    color: #dddddd;
+}
+.service-box-btn .btn {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.7rem 1.5rem;
+    font-size: 0.9rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #5a5a5a;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+.service-box-btn .btn:hover {
+    background-color: #ffffff;
+    color: #373737;
+    border: 0px;
+    box-shadow: 0 4px 8px rgba(225, 215, 215, 0.5);
+}
+
+/* Media Query for Mobile Devices */
+
+@media (max-width: 768px) {
+    /* Service Section */
+    .service {
+        padding: 50px 20px;
+    }
+
+    .section-for-service {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .service-box {
+        width: 80%;
+        margin: 10px 0;
+    }
+}
