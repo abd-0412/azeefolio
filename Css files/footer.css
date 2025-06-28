@@ -16,6 +16,12 @@ footer .copyright-footer{
     position: relative;
     padding: 10px 10px;
 }
+.copyright-footer a{
+    text-decoration: none;
+    list-style: none;
+    font-size: 12px;
+    color: #ffdd00;
+}
 .social-media-footer{
     align-items: center;
     display: flex;
